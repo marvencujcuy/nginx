@@ -8,7 +8,7 @@ nginx proxy to redirect host/guest ports
 version: "3"
 services:
   nginx:
-    image: marvencujcuy/nginx:1.0.0
+    image: marvencujcuy/nginx:1.0.2
     ports:
       - 80:80
       - 443:443
